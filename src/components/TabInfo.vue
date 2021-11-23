@@ -111,11 +111,10 @@ $trEven: #151413;
     margin-bottom: 1.75rem;
     box-shadow: 0 4px 8px var(--mask);
 
-    img {
-      object-fit: cover;
-      width: 4.5rem;
-      height: auto;
-      vertical-align: bottom;
+    th,
+    td {
+      color: var(--lightGray);
+      white-space: pre-wrap;
     }
 
     th:nth-child(1),
@@ -128,18 +127,21 @@ $trEven: #151413;
       background-color: var(--lightBlack);
     }
 
-    tbody tr:nth-child(even) {
-      background-color: $trEven;
-    }
+    tbody {
+      &:nth-child(even) {
+        background-color: $trEven;
+      }
 
-    tbody tr:nth-child(odd) {
-      background-color: $trOdd;
-    }
+      &:nth-child(odd) {
+        background-color: $trEven;
+      }
 
-    th,
-    td {
-      color: var(--lightGray);
-      white-space: pre-wrap;
+      img {
+        object-fit: cover;
+        width: 4.5rem;
+        height: auto;
+        vertical-align: bottom;
+      }
     }
   }
 }

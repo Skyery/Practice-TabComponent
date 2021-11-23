@@ -58,6 +58,11 @@ export default {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    overflow-x: scroll;
+
+    @media screen and (max-width: 896px) {
+      width: 896px;
+    }
 
     .tab {
       padding: 1.75rem 2rem;

@@ -82,6 +82,10 @@ $trEven: #151413;
         line-height: 1.5;
         box-shadow: 0 4px 8px var(--mask);
 
+        @media screen and (max-width: 960px) {
+          width: calc(100% - 1.75rem);
+        }
+
         th,
         td {
           padding: 0.25rem 0.5rem;
@@ -98,6 +102,7 @@ $trEven: #151413;
             text-align: left;
 
             &:first-child {
+              white-space: nowrap;
               text-align: center;
               width: 25%;
             }

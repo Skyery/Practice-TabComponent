@@ -64,6 +64,10 @@ body {
   padding: 0.15rem 0;
   transition: 0.2s;
 
+  @media screen and (max-width: 896px) {
+    width: 896px;
+  }
+
   &.fixTop {
     position: fixed;
     top: 0;
