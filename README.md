@@ -1,24 +1,26 @@
-# tab-component
+# Tab Components
+> 以component切換及針對input三種輸入(select、radio、text)功能為練習目標。
 
-## Project setup
-```
-npm install
-```
+### 簡介
+Tab 功能 :
+* 應用 <component v-bing:is> 及 reactive 雙向綁定
+* <keep-alive> 記憶Tab切換前的狀態
+* 使用 provide, inject 功能
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Select 部分 :
+* v-model 及 reactive 資料雙向綁定
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Radio 部分 :
+* 非同步取得資料並處理後渲染到畫面上
 
-### Lints and fixes files
-```
-npm run lint
-```
+Text 部分 :
+* 實作簡易搜尋功能
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### DEMO
+[Demo GitPage](http://skyery.github.io/Practice-TabComponent)
+
+### 專案使用
+* Veu3 CLI
+* Provide、Inject
+* Javascript
+* Heroku (Rest API)
