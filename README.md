@@ -3,8 +3,8 @@
 
 ### 簡介
 Tab 功能 :
-* 應用 <component v-bing:is> 及 reactive 雙向綁定
-* <keep-alive> 記憶Tab切換前的狀態
+* 應用 `<component v-bing:is>` 及 reactive 雙向綁定
+* `<keep-alive>` 記憶Tab切換前的狀態
 * 使用 provide, inject 功能
 
 Select 部分 :
