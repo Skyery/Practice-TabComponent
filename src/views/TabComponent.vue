@@ -58,9 +58,9 @@ export default {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    overflow-x: scroll;
 
     @media screen and (max-width: 896px) {
+      overflow-x: scroll;
       width: 896px;
     }
 
